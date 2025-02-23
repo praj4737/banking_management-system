@@ -29,6 +29,7 @@ import java.util.List;
 
 @Controller
 @SessionAttributes("customer")
+@RequestMapping("/my-bank")
 public class RegistrationController {
     @Autowired
     private RegistrationService service;

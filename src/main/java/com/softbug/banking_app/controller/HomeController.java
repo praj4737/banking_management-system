@@ -20,6 +20,7 @@ import java.time.LocalDate;
 import java.time.LocalTime;
 
 @Controller
+@RequestMapping("/my-bank")
 public class HomeController {
     Logger LOGGER = LoggerFactory.getLogger(HomeController.class);
 

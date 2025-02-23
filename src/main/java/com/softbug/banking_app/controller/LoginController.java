@@ -16,6 +16,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.SessionAttributes;
 
 @Controller
+@RequestMapping("/my-bank")
 //@SessionAttributes("cusId")
 public class LoginController {
     @Autowired

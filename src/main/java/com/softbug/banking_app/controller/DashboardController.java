@@ -18,6 +18,7 @@ import java.util.Iterator;
 import java.util.List;
 
 @Controller
+@RequestMapping("/my-bank")
 public class DashboardController {
     Logger LOGGER = LoggerFactory.getLogger(DashboardController.class);
     @Autowired
