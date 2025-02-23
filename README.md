@@ -82,6 +82,12 @@ cd mybank
    ```
    http://localhost:8080/
    ```
-
+or, Open the project in an IDE intelliJ or Eclipse
+1. Open the project
+2. click on the run button (shift+f10 on intelliJ)
+3. open your browser and type the following url
+    ```
+   http://localhost:8080/my-bank/login
+   ```
 Now, you can log in or register to start using **MyBank**!
 
